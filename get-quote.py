@@ -8,7 +8,7 @@ def primary():
   f.close()
 
   last = 13
-  rnd = random.randint(0, last-1)
+  rnd = random.randint(0, last)
 
   print(quotes[rnd])
 
